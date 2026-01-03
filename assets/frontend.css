@@ -1,0 +1,24 @@
+.stepform{display:grid;grid-template-columns:280px 1fr;gap:0;background:#eef2f7;border-radius:18px;box-shadow:0 18px 60px rgba(15,23,42,.15);overflow:hidden;font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.stepform-sidebar{background:#0f172a;color:#fff;padding:32px;display:flex;flex-direction:column;gap:20px}
+.stepform-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.stepform-step{display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px;background:rgba(255,255,255,.04);color:#cbd5e1}
+.stepform-step .step-number{width:34px;height:34px;border-radius:12px;background:#1e293b;display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+.stepform-body{background:#fff;padding:42px;position:relative}
+.stepform-header .step-count{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#38bdf8;margin:0 0 8px}
+.stepform-header .step-progress{height:6px;background:#e2e8f0;border-radius:999px;overflow:hidden;margin:8px 0 18px}
+.stepform-header .step-progress .bar{display:block;height:100%;width:14%;background:linear-gradient(90deg,#38bdf8,#0ea5e9)}
+.step-title{font-size:28px;margin:0 0 10px;color:#0f172a}
+.step-description{color:#475569;margin:0 0 20px}
+.stepform-fields{display:flex;flex-direction:column;gap:14px}
+.sf-front-field label{font-weight:700;color:#0f172a;display:block;margin-bottom:6px}
+.sf-front-field label .req{color:#ef4444}
+.sf-front-field input,.sf-front-field textarea{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #e2e8f0;font-size:15px;background:#f8fafc}
+.sf-front-field textarea{min-height:120px}
+.sf-front-field small{color:#94a3b8;display:block;margin-top:6px}
+.stepform-actions{display:flex;justify-content:space-between;align-items:center;margin-top:24px}
+.stepform-actions button{border:none;border-radius:12px;padding:12px 18px;font-weight:700;cursor:pointer}
+.stepform-prev{background:transparent;color:#0f172a}
+.stepform-next,.stepform-submit{background:#0ea5e9;color:#fff;box-shadow:0 10px 40px rgba(14,165,233,.35)}
+.sf-error{border-color:#ef4444!important}
+.sf-notice{margin-top:12px;padding:10px 12px;border-radius:10px;background:#ecfeff;color:#0f172a;border:1px solid #67e8f9}
+@media(max-width:960px){.stepform{grid-template-columns:1fr}.stepform-sidebar{display:none}}
