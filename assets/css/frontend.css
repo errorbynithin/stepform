@@ -1,0 +1,10 @@
+.psfb-frontend{display:grid;grid-template-columns:220px 1fr;gap:12px;border:1px solid #e2e4e7;padding:12px;border-radius:4px;}
+.psfb-steps-sidebar{background:#f8f9fa;border-right:1px solid #e2e4e7;padding:8px;}
+.psfb-step-list{list-style:none;padding:0;margin:0;}
+.psfb-step-list li{padding:8px;border-radius:4px;cursor:pointer;}
+.psfb-step-list li.active{background:#2271b1;color:#fff;}
+.psfb-step{margin-bottom:12px;}
+.psfb-field{margin-bottom:12px;}
+.psfb-field label{display:block;font-weight:600;margin-bottom:4px;}
+.psfb-nav{display:flex;justify-content:space-between;margin-top:8px;}
+.psfb-html-block{padding:8px;background:#fff;border:1px solid #e2e4e7;}
